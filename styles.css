@@ -6,3 +6,11 @@
 @media(max-width:1000px){.footer-grid{grid-template-columns:repeat(2,1fr)}.editorial-row{grid-template-columns:1fr}.offer .photo,.offer-media-placeholder{height:245px}}
 @media(max-width:700px){.hero h1{font-size:clamp(36px,9vw,48px)}.header-inner{min-height:64px}.nav{gap:8px}.footer-grid{grid-template-columns:1fr 1fr;gap:30px}.footer-bottom{flex-direction:column}.editorial-photo{min-height:260px}.menu-list{grid-template-columns:1fr}.offer .photo,.offer-media-placeholder{height:260px}.section-title{font-size:34px}}
 a:focus-visible,button:focus-visible{outline:3px solid #c17c43;outline-offset:3px}
+
+/* Approved four-annotation polish: white menu cards and horizontal gallery */
+.menu-list article{background:#fff!important;border:1px solid #e3e3e3;box-shadow:none}
+.menu-list p{border-bottom-color:#eeeeee}
+.gallery-placeholders{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.gallery-placeholder{aspect-ratio:4/5;background:#e9e6e0;color:#67665f;display:flex;align-items:center;justify-content:center;text-align:center;padding:22px;border-radius:20px;font-size:14px;font-weight:600}
+@media(max-width:900px){.gallery-placeholders{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:450px){.gallery-placeholders{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}.gallery-placeholder{flex:0 0 78%;scroll-snap-align:start}}
