@@ -133,3 +133,8 @@ body .contact .btn-light:hover{background:#6c1c23;color:#fff}
  body .footer-rich .footer-grid{column-gap:16px}
  body .footer-rich .footer-grid a{font-size:12px}
 }
+
+/* Minimal seamless floating navigation, always visible while scrolling */
+.header{position:fixed;top:14px;left:0;right:0;width:100%;z-index:1000}
+.header-inner{border:0!important;outline:0;box-shadow:0 12px 30px rgba(26,15,12,.17);background:rgba(53,36,28,.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
+@media(max-width:700px){.header{top:12px}.header-inner{border:0!important;box-shadow:0 10px 25px rgba(26,15,12,.18)}}
