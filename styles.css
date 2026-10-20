@@ -111,3 +111,25 @@ body .contact .btn-light:hover{background:#6c1c23;color:#fff}
  .nav a.btn-light{color:#513422}
 }
 @media(max-width:380px){.header-inner{padding:9px 11px}.mobile-header-actions{gap:5px}.header-icon,.toggle{width:35px;height:35px}.brand-demo .logo-wordmark{font-size:16px}}
+
+/* Mobile footer final QA: clean hierarchy and legible columns */
+@media(max-width:700px){
+ body .footer-rich{padding:46px 0 24px}
+ body .footer-rich .footer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:25px;row-gap:31px;align-items:start}
+ body .footer-rich .footer-about{grid-column:1/-1;gap:9px}
+ body .footer-rich .footer-about p{font-size:14px;line-height:1.7}
+ body .footer-rich .footer-grid nav{grid-column:1;grid-row:2}
+ body .footer-rich .footer-grid>div:nth-child(3){grid-column:2;grid-row:2}
+ body .footer-rich .footer-grid>div:nth-child(4){grid-column:1/-1;grid-row:3;border-top:1px solid rgba(255,255,255,.15);padding-top:25px}
+ body .footer-rich .footer-grid>div:nth-child(4) p{max-width:none}
+ body .footer-rich .footer-grid>div:nth-child(4) .footer-hours{margin-top:18px}
+ body .footer-rich .footer-hours p{line-height:1.9}
+ body .footer-rich .footer-grid a{overflow-wrap:anywhere;word-break:normal;font-size:13px}
+ body .footer-rich .footer-grid b{font-size:11px;margin-bottom:4px}
+ body .footer-rich .demo-clarification{margin-top:30px;line-height:1.65}
+ body .footer-rich .footer-bottom{margin-top:16px;line-height:1.7}
+}
+@media(max-width:390px){
+ body .footer-rich .footer-grid{column-gap:16px}
+ body .footer-rich .footer-grid a{font-size:12px}
+}
