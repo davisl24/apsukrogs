@@ -57,3 +57,27 @@ a:focus-visible,button:focus-visible{outline:3px solid #c17c43;outline-offset:3p
 .contact-map iframe{display:block;width:100%;height:330px;border:0}
 .contact-map-action{text-align:center;margin-top:24px}
 @media(max-width:700px){.contact-detail-section{padding:54px 0 70px}.contact-compact{grid-template-columns:1fr;gap:10px}.contact-item-row{padding:18px;gap:14px}.contact-map iframe{height:280px}}
+
+/* Brand alignment — colors sampled approximately from customer's actual signage/logo */
+:root{--bg:#F7F3ED;--cream:#FFFFFF;--ink:#35271F;--muted:#66574D;--green:#81212A;--line:#E6DAD0;--wood:#513422;--sand:#C49A70;--brand-burgundy:#81212A;--brand-brown:#513422;--brand-caramel:#C49A70}
+body{background:var(--bg);color:var(--ink)}
+.header-inner{background:rgba(54,32,25,.82);border-color:rgba(255,255,255,.2)}
+.page-head{background:var(--brand-brown)}
+.contact,.footer-rich{background:var(--brand-brown)}
+.offer,.menu-list article,.contact-item-row{background:#fff;border-color:var(--line)}
+.panel{background:#F0E8DF}.panel p,.offer p{color:var(--muted)}
+.btn-dark{background:var(--brand-burgundy);color:white}
+.btn-light{background:#fff7ed;color:var(--brand-brown)}
+.btn-ghost{border-color:#fff6ed;color:white}
+.offer a.more,.link-arrow{color:var(--brand-burgundy)}
+.hero h1 em{color:#f3d7ad}
+.hero::before{background:linear-gradient(180deg,rgba(31,16,12,.18),rgba(31,16,12,.54))}
+.hero:before{background:linear-gradient(180deg,rgba(31,16,12,.26),rgba(31,16,12,.65))}
+.offer-media-placeholder,.gallery-placeholder{background:linear-gradient(140deg,#E9E0D7,#F2EAE2);color:#735d4d}
+.banquet-style-one{background:linear-gradient(0deg,#3c231bba,transparent 72%),linear-gradient(125deg,#b8a28b,#e5dac7 48%,#a68e76)}
+.banquet-style-two{background:linear-gradient(0deg,#3c231bba,transparent 72%),linear-gradient(115deg,#a69c87,#e7e0ce 50%,#c6b297)}
+.banquet-style-three{background:linear-gradient(0deg,#3c231bba,transparent 72%),linear-gradient(145deg,#947b68,#d2c4af 50%,#795b4c)}
+.source-label{color:#eee0ce}
+.contact-icon{background:#F6ECE6;color:var(--brand-burgundy)}
+.story a,.contact-item-row a:hover{color:var(--brand-burgundy)}
+:focus-visible{outline-color:#A64D4D}
