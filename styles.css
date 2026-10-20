@@ -14,3 +14,9 @@ a:focus-visible,button:focus-visible{outline:3px solid #c17c43;outline-offset:3p
 .gallery-placeholder{aspect-ratio:4/5;background:#e9e6e0;color:#67665f;display:flex;align-items:center;justify-content:center;text-align:center;padding:22px;border-radius:20px;font-size:14px;font-weight:600}
 @media(max-width:900px){.gallery-placeholders{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:450px){.gallery-placeholders{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}.gallery-placeholder{flex:0 0 78%;scroll-snap-align:start}}
+
+/* Banketu foto joslas struktūra — saturam rezervētas vietas */
+.banquet-photo-section{padding-top:10px}
+.banquet-photo-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.banquet-photo-slot{min-height:260px;border-radius:22px;background:#e8e4dc;color:#686860;display:grid;place-items:center;text-align:center;padding:24px;font-weight:600}
+@media(max-width:700px){.banquet-photo-strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}.banquet-photo-slot{flex:0 0 82%;scroll-snap-align:start}}
