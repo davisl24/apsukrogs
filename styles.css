@@ -81,3 +81,11 @@ body{background:var(--bg);color:var(--ink)}
 .contact-icon{background:#F6ECE6;color:var(--brand-burgundy)}
 .story a,.contact-item-row a:hover{color:var(--brand-burgundy)}
 :focus-visible{outline-color:#A64D4D}
+
+/* Final visual separation: homepage contact section vs footer */
+body .contact{background:#81212A;color:#fffaf2}
+body .contact p{color:#f6e6df}
+body .contact .btn-light{background:#fffaf2;color:#513422}
+body .footer-rich{background:#35241c;color:#f7f0e8}
+body .footer-rich .footer-bottom{border-top:none;margin-top:12px;padding-top:8px}
+body .footer-rich .demo-clarification{border-top:none;padding-top:0;margin-top:26px}
