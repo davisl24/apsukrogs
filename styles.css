@@ -89,3 +89,10 @@ body .contact .btn-light{background:#fffaf2;color:#513422}
 body .footer-rich{background:#35241c;color:#f7f0e8}
 body .footer-rich .footer-bottom{border-top:none;margin-top:12px;padding-top:8px}
 body .footer-rich .demo-clarification{border-top:none;padding-top:0;margin-top:26px}
+
+/* Homepage closing CTA: quiet white section, one consistent brand accent */
+body .contact{background:#fff;color:#20251f}
+body .contact p{color:#5e574f}
+body .contact .section-title{color:#20251f}
+body .contact .btn-light{background:#81212A;color:#fff;border-color:#81212A}
+body .contact .btn-light:hover{background:#6c1c23;color:#fff}
