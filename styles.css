@@ -96,3 +96,18 @@ body .contact p{color:#5e574f}
 body .contact .section-title{color:#20251f}
 body .contact .btn-light{background:#81212A;color:#fff;border-color:#81212A}
 body .contact .btn-light:hover{background:#6c1c23;color:#fff}
+
+/* Mobile nav matches brown brand header; preview action icons */
+.mobile-header-actions{display:none}
+.header-icon{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid rgba(255,255,255,.48);border-radius:50%;color:#fff;background:rgba(255,255,255,.06);flex-shrink:0}
+.header-icon svg{width:19px;height:19px}
+.header-language-preview{opacity:.62;cursor:default}
+@media(max-width:700px){
+ .header-inner{gap:8px}
+ .mobile-header-actions{display:flex;align-items:center;gap:7px;margin-left:auto}
+ .brand-demo .logo-wordmark{font-size:18px}
+ .toggle{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;padding:0;font-size:18px;flex-shrink:0}
+ .nav{background:#513422;border:1px solid rgba(255,255,255,.14);box-shadow:0 16px 36px rgba(34,19,13,.22)}
+ .nav a.btn-light{color:#513422}
+}
+@media(max-width:380px){.header-inner{padding:9px 11px}.mobile-header-actions{gap:5px}.header-icon,.toggle{width:35px;height:35px}.brand-demo .logo-wordmark{font-size:16px}}
