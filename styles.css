@@ -44,3 +44,16 @@ a:focus-visible,button:focus-visible{outline:3px solid #c17c43;outline-offset:3p
 .demo-clarification{font-size:12px;color:#cbd6c8;margin-top:42px;padding:13px 0;border-top:1px solid #ffffff20}
 .footer-bottom{margin-top:12px}
 @media(max-width:700px){.brand-demo .logo-wordmark{font-size:19px}}
+
+/* Kompakta kontaktu sadaļa */
+.contact-detail-section{padding:72px 0 90px}
+.contact-compact{max-width:980px;margin:0 auto 30px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.contact-item-row{display:flex;align-items:flex-start;gap:18px;padding:23px 25px;background:#fff;border:1px solid #e7e5df;border-radius:20px;min-width:0}
+.contact-icon{width:44px;height:44px;flex:0 0 44px;border-radius:14px;background:#edf0e9;color:var(--green);display:grid;place-items:center}
+.contact-item-row h2{font-size:15px;line-height:1.5;margin:0 0 5px;font-weight:750}
+.contact-item-row p,.contact-item-row a{font-size:15px;line-height:1.65;color:var(--muted);margin:0;overflow-wrap:anywhere}
+.contact-item-row a:hover{color:var(--green);text-decoration:underline}
+.contact-map{max-width:980px;margin:auto;overflow:hidden;border-radius:24px;border:1px solid #dfdbd2;background:#e9ebe5}
+.contact-map iframe{display:block;width:100%;height:330px;border:0}
+.contact-map-action{text-align:center;margin-top:24px}
+@media(max-width:700px){.contact-detail-section{padding:54px 0 70px}.contact-compact{grid-template-columns:1fr;gap:10px}.contact-item-row{padding:18px;gap:14px}.contact-map iframe{height:280px}}
